@@ -1,0 +1,28 @@
+search-bar {
+    background: #ececec;
+    padding: 15px;
+    justify-content: flex-start;
+  }
+
+.search-bar-container {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+  
+.search-bar-container-input {
+    border: 2px solid grey;
+    height: 30px;
+    width: 80%;
+    padding-left: 40px;
+  
+}
+  
+.search-bar-container-icon {
+    position: absolute;
+    margin-left: 7px;
+    top: 20%;
+    z-index: 1;
+    cursor: pointer;
+}

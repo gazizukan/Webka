@@ -1,0 +1,30 @@
+.header_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  flex-direction: row;
+}
+.header ul {
+  display: inline-flex;
+  background: #000000;
+  list-style-type: none;
+  width: 980px;
+  height: 65px;
+}
+li{
+  padding: 20px 0 0 10px;
+  margin-left: 50px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 30px;
+  margin: 0 15px 0 15px;
+  font-size: 18px;
+}
+a:hover{
+  color: red;
+  height: 50px;
+}
+

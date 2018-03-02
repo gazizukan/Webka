@@ -1,0 +1,43 @@
+/* Main rules */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+
+
+@media(min-width: 1060px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+
+/* Typography */
+
+h1 {
+  font-weight: 800;
+  transition: all 0.35s ease-out;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+
+
+/* Nav */
